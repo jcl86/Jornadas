@@ -1,8 +1,7 @@
 ﻿using System;
 
-namespace Jornadas.Core
+namespace Jornadas.Domain
 {
-    [Serializable]
     public class DomainException : Exception
     {
         public DomainException(string message) : base(message) { }
